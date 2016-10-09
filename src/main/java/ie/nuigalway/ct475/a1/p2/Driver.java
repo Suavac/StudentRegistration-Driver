@@ -11,7 +11,6 @@ public class Driver {
 
     public static void main(final String... args) {
         final ArrayList<Student> batch1 = new ArrayList<>();
-        batch1.add(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
         batch1.add(new Student("Jesse Phoenix", "12-03-1989", studentcount++));
         batch1.add(new Student("Dell MacApple", "12-03-1989", studentcount++));
         batch1.add(new Student("Roger Flopple", "12-03-1989", studentcount++));
@@ -38,7 +37,15 @@ public class Driver {
 
         final Course c1 = new Course("Computer Science & IT", "01-09-2013", "30-05-2017");
 
-
+        //Add individual Student
+        m1.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m2.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m3.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m4.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m5.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m6.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        m7.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        //Add batch of students
         m1.addStudents(batch1);
         m2.addStudents(batch1);
         m3.addStudents(batch1);
@@ -55,26 +62,26 @@ public class Driver {
         c1.addModule(m6);
         c1.addModule(m7);
 
-        final ArrayList<Student> st = c1.getStudents();
-
-        for (final Student s : c1.getStudents()) {
+        for (final Student student : c1.getStudents()) {
             System.out.println("--------------- STUDENT ---------------");
-            System.out.println("Name:\t" + s.getName());
-            System.out.println("DOB:\t" + s.getDob() + "\t" + " -  Age: " + s.getAge());
-            System.out.println("Student ID:\t" + s.getId());
+            System.out.println("Name:\t" + student.getName());
+
+            System.out.println("DOB:\t" + student.getDob() + "\t" + " -  Age: " + student.getAge());
+            System.out.println("Username:\t" + student.getUsername());
+            System.out.println("Student ID:\t" + student.getId());
             System.out.println("\n");
-            System.out.println("Course:\t" + s.getCourseName());
-            printStudentDetails(s);
+            System.out.println("Course:\t" + student.getCourseName());
+            printStudentModules(student);
             System.out.println("---------------------------------------\n");
         }
 
 
     }
 
-    public static void printStudentDetails(final Student s) {
+    public static void printStudentModules(final Student student) {
         System.out.println("\nMODULES:");
-        for (final Module m : s.getModules()) {
-            System.out.println(m.toString());
+        for (final Module module : student.getModules()) {
+            System.out.println(module.toString());
         }
     }
 }
