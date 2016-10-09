@@ -6,9 +6,6 @@ jdk:
 
 language: java
 
-after_success:
-  - java -jar /root/src/github.com/Suavac/StudentRegistration-Driver/target/StudentRegistrationDriver-1.0-SNAPSHOT.jar
-  
 notifications:
   email:
     recipients:
