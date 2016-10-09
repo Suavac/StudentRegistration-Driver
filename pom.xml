@@ -21,7 +21,7 @@
         <dependency>
             <groupId>ie.nuigalway.ct475</groupId>
             <artifactId>StudentRegistrationCore</artifactId>
-            <version>LATEST</version>
+            <version>1.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

@@ -1,5 +1,6 @@
 after_success: 
   - "mvn test"
+  - java -jar /root/src/github.com/Suavac/StudentRegistration-Driver/target/StudentRegistrationDriver-1.0-SNAPSHOT.jar
 jdk: 
   - oraclejdk8
 language: java
