@@ -7,26 +7,26 @@ import ie.nuigalway.ct475.a1.p1.Student;
 import java.util.ArrayList;
 
 public class Driver {
-    private static final int studentcount = 1600000;
+    private static int studentcount = 1600000;
 
     public static void main(final String... args) {
-        final ArrayList<Student> batch1 = new ArrayList<Student>();
-        batch1.add(new Student("Lucius Cashmere", "12-03-1989", 12374888));
-        batch1.add(new Student("Jesse Phoenix", "12-03-1989", 16345388));
-        batch1.add(new Student("Dell MacApple", "12-03-1989", 13456373));
-        batch1.add(new Student("Roger Flopple", "12-03-1989", 12184888));
-        batch1.add(new Student("Demetrius Levenworth", "12-03-1989", 1258567));
-        batch1.add(new Student("Lieutenant Poowhistle", "12-03-1989", 12874488));
-        batch1.add(new Student("Dunk Johnson", "12-03-1989", 19876548));
-        batch1.add(new Student("Lucenzo Diablo", "12-03-1989", 124567628));
-        batch1.add(new Student("Salamander Hammerhead", "12-03-1989", 12236458));
-        batch1.add(new Student("Serge LeMans", "12-03-1989", 12457238));
-        batch1.add(new Student("Flip Jupiter", "12-03-1989", 16234242));
-        batch1.add(new Student("Ed Bed", "12-03-1989", 12245458));
-//        batch2.add(new Student("Oliver Revilo", "12-03-1989", 12213452));
-//        batch2.add(new Student("Bushwood Parachute", "12-03-1989", 123452158));
-//        batch2.add(new Student("Victor Hickory", "12-03-1989", 121345248));
-//        batch2.add(new Student("Ferrari Montenegro", "12-03-1989", 1247674548));
+        final ArrayList<Student> batch1 = new ArrayList<>();
+        batch1.add(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
+        batch1.add(new Student("Jesse Phoenix", "12-03-1989", studentcount++));
+        batch1.add(new Student("Dell MacApple", "12-03-1989", studentcount++));
+        batch1.add(new Student("Roger Flopple", "12-03-1989", studentcount++));
+        batch1.add(new Student("Demetrius Levenworth", "12-03-1989", studentcount++));
+        batch1.add(new Student("Lieutenant Poowhistle", "12-03-1989", studentcount++));
+        batch1.add(new Student("Dunk Johnson", "12-03-1989", studentcount++));
+        batch1.add(new Student("Lucenzo Diablo", "12-03-1989", studentcount++));
+        batch1.add(new Student("Salamander Hammerhead", "12-03-1989", studentcount++));
+        batch1.add(new Student("Serge LeMans", "12-03-1989", studentcount++));
+        batch1.add(new Student("Flip Jupiter", "12-03-1989", studentcount++));
+        batch1.add(new Student("Ed Bed", "12-03-1989", studentcount++));
+        batch1.add(new Student("Oliver Revilo", "12-03-1989", studentcount++));
+        batch1.add(new Student("Bushwood Parachute", "12-03-1989", studentcount++));
+        batch1.add(new Student("Victor Hickory", "12-03-1989", studentcount++));
+        batch1.add(new Student("Ferrari Montenegro", "12-03-1989", studentcount++));
 
         final Module m1 = new Module("Software Engineering", "CT123");
         final Module m2 = new Module("Professional Skills", "CT257");
@@ -40,15 +40,10 @@ public class Driver {
 
 
         m1.addStudents(batch1);
-        // m1.addStudents(batch1);
         m2.addStudents(batch1);
-        // m2.addStudents(batch1);
         m3.addStudents(batch1);
-        // m3.addStudents(batch1);
         m4.addStudents(batch1);
-        // m4.addStudents(batch1);
         m5.addStudents(batch1);
-        // m5.addStudents(batch1);
         m6.addStudents(batch1);
         m7.addStudents(batch1);
 
