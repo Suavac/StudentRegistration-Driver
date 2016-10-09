@@ -46,8 +46,8 @@
       <file leaf-file-name="shippable.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shippable.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -108,7 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="568" />
+    <option name="x" value="624" />
+    <option name="y" value="83" />
     <option name="width" value="1229" />
     <option name="height" value="1047" />
   </component>
@@ -685,15 +686,15 @@
       <option name="presentableId" value="Default" />
       <updated>1475960506912</updated>
       <workItem from="1475960509675" duration="507000" />
-      <workItem from="1475966667318" duration="16240000" />
+      <workItem from="1475966667318" duration="16423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16747000" />
+    <option name="totallyTimeSpent" value="16930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="568" y="0" width="1229" height="1047" extended-state="0" />
+    <frame x="624" y="83" width="1229" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shippable.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
