@@ -37,7 +37,7 @@ public class Driver {
 
         final Course c1 = new Course("Computer Science & IT", "01-09-2013", "30-05-2017");
 
-        //Add individual Student
+        //Add individual Student to several modules
         m1.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
         m2.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
         m3.addStudent(new Student("Lucius Cashmere", "12-03-1989", studentcount++));
