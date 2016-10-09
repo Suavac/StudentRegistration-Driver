@@ -64,11 +64,11 @@ public class Driver {
 
         for (final Student student : c1.getStudents()) {
             System.out.println("--------------- STUDENT ---------------");
-            System.out.println("Name:\t" + student.getName());
+            System.out.println("Name:\t" + student.getStudentName());
 
             System.out.println("DOB:\t" + student.getDob() + "\t" + " -  Age: " + student.getAge());
             System.out.println("Username:\t" + student.getUsername());
-            System.out.println("Student ID:\t" + student.getId());
+            System.out.println("Student ID:\t" + student.getStudentID());
             System.out.println("\n");
             System.out.println("Course:\t" + student.getCourseName());
             printStudentModules(student);
