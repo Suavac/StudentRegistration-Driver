@@ -1,11 +1,8 @@
 after_success: 
   - "mvn test"
-
 jdk: 
   - oraclejdk8
-
 language: java
-
 notifications:
   email:
     recipients:
